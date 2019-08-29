@@ -31,6 +31,12 @@ use **run** from **npm** or **yarn**
 
 ## Use:
 
-The default web server port is **9000**
+The default web server port is **9000**, broser to:
 
-broser to `http://localhost:9000`
+        http://localhost:9000
+
+- ### Source code:
+
+    - All code must be in the `src` directory, and it is served in the "app" path
+    - webpack serves the content of the `public` directory
+    
