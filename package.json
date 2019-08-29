@@ -1,0 +1,19 @@
+{
+  "name": "typescript-webpack-starter",
+  "version": "0.0.1",
+  "description": "A minimal starter for TypeScript + Webpack for fast prototypes of webapps",
+  "author": "Jesus Jerez <jesusjerez@pm.me>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "dev": "webpack",
+    "prod": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
